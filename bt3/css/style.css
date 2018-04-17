@@ -1,0 +1,79 @@
+html{
+	font-family: 'Dosis', sans-serif;
+}
+
+#main-title {
+	margin:30 auto;
+	width: 50%;
+	border: 3px solid #096ba9;
+}
+
+#main-title h1{
+	color:#096ba9;
+	text-align: center;		
+}
+.products-wrapper{
+	width: 100%;
+}
+.row1{
+	
+	margin:80px auto;
+	width:1000px;
+}
+img{
+	width:280px;
+	height: 300px;
+
+}
+.col{
+	float:left;
+	margin-right:40px;
+	max-width: 300px;
+	text-align: center;
+}
+
+.col a{
+	color: white;
+	font-style:bold;
+	text-decoration: none;
+}
+
+.col:hover{
+	-moz-box-shadow: 0 0 10px #ccc;
+		-webkit-box-shadow: 0 0 10px #ccc;
+		box-shadow: 0 0 10px #ccc;
+}
+.clear{
+	clear: both;
+}
+.detail{
+	background-color: #7abde8;
+	width: 280px;
+	height:80px;
+}
+
+.detail:hover{
+	background-color: #004e7f;
+	border-radius: 33px;
+	
+}
+
+.detail p{
+	padding-top: 15px;
+}
+
+.detail h3{
+	margin-top: -20px;
+}
+
+.row2{
+	margin:80px auto;
+	width:1000px;
+	height: 400px;
+}
+
+
+.row3{
+	margin:80px auto;
+	width:1000px;
+}

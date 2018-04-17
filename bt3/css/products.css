@@ -1,0 +1,50 @@
+html{
+	font-family: 'Dosis', sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+.left-col{
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+
+}
+.left-col img{
+	background-color: #d6d6d6;
+	max-width:500px;
+
+}
+
+.right-col{
+	float: right;
+	margin-right:100px;
+	max-width: 48%;
+	margin-top: 100px;
+
+}
+.right-col h3{
+	color: #0067b7;
+}
+
+.right-col a{
+	text-decoration: none;
+	
+}
+
+.button{
+	background-color: #008efb;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.detail{
+	color: #a3a3a3;
+}
