@@ -1,0 +1,171 @@
+*{
+	font-family: 'Dosis', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+body{
+	text-align: center;
+	margin:0;
+	padding: 0;
+}
+
+img{
+	width: 100%;
+}
+/*
+img:hover{
+	@include translate(0px, 160px);
+}
+*/
+.clear{
+	clear: both;
+}
+.header{
+	width: 100%;
+    max-width: 1000px;
+    margin: 50 auto;
+}
+
+.left-menu{
+	position: absolute;
+	float: left;
+}
+
+.feature{
+	display:inline-block;
+}
+
+.feature:before{
+	content: "";
+    background-color: #e50f88;
+    width: 3px;
+    height: 37px;
+    margin-right: 20px;
+    display: block;
+    float: left;
+    display:inline-block;
+    margin-top: -3px;
+
+}
+
+.feature:after{
+	content: "";
+    background-color: #e50f88;
+    width: 3px;
+    height: 37px;
+    margin-left: 20px;
+    display: block;
+    float: right;
+    display:inline-block;
+    margin-top: -3px;
+
+}
+.left-menu span{
+	display: inline-block;
+	padding-left: 20px;
+}
+
+
+
+.right-menu{
+	float: right;
+}
+
+.right-menu ul{
+	list-style-type: none;
+}
+
+.right-menu li{
+	display: inline-block;
+	padding-left: 2px;
+	font-size: 16px;
+
+}
+
+.right-menu a{
+	color: #1e1e1e;
+	cursor:pointer;
+}
+
+.right-menu a:hover{
+	color:red;
+}
+
+.selected a{
+	color:#e50f88;
+	
+}
+
+.collections-wrapper{
+	max-width: 1000px;
+	margin:auto;
+}
+
+.row1{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}	
+
+.col{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	overflow: hidden;
+	height: 475px;
+	cursor: pointer;
+	
+}
+
+
+.col img{
+	height: 375px;
+}
+
+.col img:hover{
+	 -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    opacity:1;
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+
+.item-discription{
+	text-align: left;
+	margin-top: 20px;
+
+}
+.item-name{
+	font-weight:  bold;
+	margin-bottom: 10px;
+}
+
+.item-price{
+	font-size: 16px;
+	color:#e50f88;
+	list-style: none;
+}
+
+.item-price li{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.oldprice{
+	color: #1e1e1e;
+	text-decoration: line-through;
+}
+
+.row2{
+	position: relative;
+	width: 100%;
+	margin: 50 auto;
+}	
+
+
+
+
