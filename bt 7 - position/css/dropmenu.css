@@ -1,0 +1,36 @@
+
+.drop-menu{
+	position:fixed;
+	top:30px;
+	right:0px;
+	z-index: 20;
+	background-color: #000;
+	border-radius: 9px 0 0 9px;
+	opacity: 0.5;
+}
+
+.drop-menu ul{
+	list-style-type: none;
+}
+
+.drop-menu li{
+	text-align: right;
+	padding-bottom: 10px;
+	font-size: 16px;
+
+}
+
+.drop-menu a{
+	color: #fff;
+	cursor:pointer;
+	padding-right: 30px;
+}
+
+.drop-menu a:hover{
+	color:red;
+}
+
+.selected a{
+	color:#e50f88;
+	
+}
