@@ -1,0 +1,79 @@
+*{
+	font-family: 'Pacifico', cursive;
+}
+
+ body{
+	background-color: #cb8400;
+}
+
+
+
+.light{
+	position: relative;
+	margin:-10 auto;
+	display: flex;
+	justify-content: center;
+
+}
+
+.top{
+	position: absolute;
+	left: 90px;
+	animation: fadeout 1s infinite;
+}
+.bottom{
+	position: absolute;
+	right: 80px;
+	animation: fadeout 1.5s infinite;
+
+}
+
+.dog{
+	float: left;
+	margin-top: 170px;
+	margin-left: 350px;
+	-webkit-animation-duration: 10s;
+            animation-duration: 10s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+	animation: bounceInLeft 3s;
+}
+
+.right-content{
+	float: right;
+	margin-top: 300px;
+	margin-right: 600px;
+	color: #fff;
+}
+
+.title-top{
+	position: absolute;
+	font-size: 56px;
+	animation: bounceInRight 3s;
+}
+
+.title-bottom{
+	position: absolute;
+	font-size: 56px;
+	animation: tada 3s;
+}
+
+.right-content p{
+	font-size: 30px;
+	margin-top: 40px;
+	animation: bounceInRight 3s;
+}
+
+.heart{
+	position:absolute;
+	margin: auto;
+	
+}
+
+
+.heart li{
+	list-style: none;
+	display: inline-block;
+	width: 80px;
+	
+}
