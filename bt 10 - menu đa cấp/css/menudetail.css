@@ -18,7 +18,7 @@
 }
 
 .right-detail{
-	position: relative;
+	position: absolute;
 	float: right;
 	max-width: 650px;
 	right: 0px;

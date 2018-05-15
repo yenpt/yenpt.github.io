@@ -1,7 +1,7 @@
 
 .gallery{
     max-width: 1000px;
-    margin: 10px auto;
+    margin: auto;
 }
 
 .row1{
@@ -62,3 +62,10 @@
 
 }
 
+.row2{
+    position: relative;
+    
+    width: 1000px;
+    box-sizing: border-box;
+
+}
