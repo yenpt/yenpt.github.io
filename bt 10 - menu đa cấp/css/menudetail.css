@@ -1,0 +1,35 @@
+.detail-wrapper{
+	width: 1000px;
+	text-align: center;
+	margin:auto;
+	margin:70px auto;
+
+}
+
+.left-detail{
+	position: absolute;
+	float: left;
+	max-width: 300px;
+	padding-top: 20px;
+}
+
+.left-detail img{
+	width: 300px;
+}
+
+.right-detail{
+	position: relative;
+	float: right;
+	max-width: 650px;
+	right: 0px;
+	text-align: left;
+}
+
+.right-detail h4{
+	color: #cd0a00;
+}
+
+.right-detail p{
+	color: #6c6c6c;
+}
+

@@ -1,0 +1,9 @@
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 900px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 900px;}
+}
