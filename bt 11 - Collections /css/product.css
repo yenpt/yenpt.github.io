@@ -169,6 +169,13 @@
     font-size: 17;
 }
 
+.title a{
+	color:#626262;;
+}
+
+.title a:hover{
+	color:#e50f88;;
+}
 .row-price{
 	color: #e50f88;
 	padding-top:8px;
