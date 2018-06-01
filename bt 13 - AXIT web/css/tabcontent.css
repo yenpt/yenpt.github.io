@@ -1,0 +1,195 @@
+.tab-content{
+	width: 100%;
+	background-color: #f1f1f1;
+	padding-bottom: 125px;
+
+}
+
+.tab-content-wrapper{
+	max-width: 1000px;
+	margin:auto;
+	display: block;
+	position: relative;
+
+   
+}
+.tab {
+    float: left;
+    text-align: center;
+    margin-top: 86px;
+    left:0px;
+    position: absolute;
+    max-width: 20%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    margin-top: 86px;
+    left:0px;
+    position: absolute;
+    max-width: 20%;
+    box-sizing: border-box;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+   width: 90px;
+	height: 90px;
+	margin:auto;
+	display: flex;
+	justify-content: center;
+	background-color: #000;
+	border: solid 1px #fff;
+	box-sizing: border-box;
+	max-width: 90px;
+	cursor: pointer;
+	color:#fff;
+    font-size: 18px;
+
+}
+.tab button:focus{
+	outline: none;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ff7e0f;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    
+}
+
+
+
+/*
+.tab-col1{
+	float: left;
+	text-align: center;
+	margin-top: 86px;
+	left:0px;
+	position: absolute;
+	max-width: 20%;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.tab-row-active{
+	width: 90px;
+	height: 90px;
+	margin:auto;
+	display: flex;
+	justify-content: center;
+	background-color: #ff7f0e;
+	border: solid 1px #fff;
+	box-sizing: border-box;
+	max-width: 90px;
+	cursor: pointer;
+}
+
+.tab-row-active h5{
+	padding-top:10px;
+	color: #fff;
+}
+
+.tab-row{
+	width: 90px;
+	height: 90px;
+	margin:auto;
+	display: flex;
+	justify-content: center;
+	background-color: #000;
+	border: solid 1px #fff;
+	box-sizing: border-box;
+	max-width: 90px;
+}
+
+.tab-row:hover{
+	transition: 0.3;
+	background-color: #ff7f0e;
+}
+
+.tab-row h5{
+	padding-top:10px;
+	color: #fff;
+}
+*/
+
+#selected1{
+	position: absolute;
+    margin-top: 59px;
+    float: left;
+    left: 173px;
+    text-align: left;
+    width: 45%;
+    max-width: 45%;
+
+}
+
+#selected2{
+	position: absolute;
+    margin-top: 59px;
+    float: left;
+    left: 173px;
+    text-align: left;
+    width: 45%;
+    max-width: 45%;
+}
+
+#selected3{
+	position: absolute;
+    margin-top: 59px;
+    float: left;
+    left: 173px;
+    text-align: left;
+    width: 45%;
+    max-width: 45%;
+}
+
+.tab-col2-content{
+	top: 70px;
+    font-size: 16px;
+    position: absolute;
+    color: #a2a1a0;
+}
+.tab-col2-content span{
+	padding-top: 20px;
+    position: absolute;
+	color: #a2a1a0;
+}
+
+.button2 {
+    background-color:#ff7f0e; /* Green */
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 150px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 7px;
+ }
+.button2:focus{
+	outline:none;
+
+}
+
+.button2:hover{
+	background-color: #04b1c7;
+
+}
+
+.tab-col3{
+	 width: 300px;
+    float: right;
+    margin-top: 80;
+}
