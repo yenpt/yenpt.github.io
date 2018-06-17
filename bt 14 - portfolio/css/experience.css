@@ -1,0 +1,234 @@
+.experience-wrapper{
+	width: 1000px;
+	max-width: 1000px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 90px;
+}
+
+.exprience-left{
+    position: relative;	
+	width: 400px;
+    max-width: 40%;
+	box-sizing: border-box;
+}
+
+.quote-bg{
+	height: 170px;
+	width: 100%;
+	background-color: #3d1d52;
+	border-radius: 80px;
+	margin-bottom: 30px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+.quote-bg:after{
+	content: "";
+    margin-top: 73px;
+    left: 400px;
+    height: 0;
+    width: 0;
+    border-left: 50px solid #3d1d52;
+    border-right: 15px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-top: 36px solid transparent;
+    position: absolute;
+}
+
+.quote-content{
+	z-index: 10;
+    position: absolute;
+    margin-left: 26px;
+    width: 85%;
+    padding-top: 10px;
+    
+}
+
+.job-title{
+	color: #fff;
+	font-size: 18px;
+}
+.job-title span{
+	font-weight: lighter;
+	padding-left: 20px;
+	font-size: 16px;
+}
+.time{
+	color: #b32dae;
+	font-size: 16px;
+}
+
+.job-discription{
+	color: #d1d1d1;
+	font-size: 16px;
+	font-weight: lighter;
+}
+.experience-center{
+	margin-top: 90px
+	max-width: 20%;
+	display: block;
+    text-align: center;
+}
+
+.circle{
+	display: block
+
+}
+
+.circle1{
+	height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: solid 1px #3d1d52;
+}
+
+.circle1:after{
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 151px;
+	background-color: #3d1d52;
+	margin-top: 50px;
+	position: absolute;
+}
+.circle2{
+	height: 29px; 
+	width: 29px;
+    z-index: 20;
+    margin: -40px 11px;
+    border-radius: 50%;
+    background-color: #914eb6;
+}
+
+
+.circle3{
+	height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: solid 1px #3d1d52;
+}
+
+.circle3:after{
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 51px;
+	background-color: #3d1d52;
+	margin-top: 50px;
+	position: absolute;
+}
+.circle4{
+	height: 29px; 
+	width: 29px;
+    z-index: 20;
+    margin: -40px 11px;
+    border-radius: 50%;
+    background-color: #914eb6;
+}
+
+.circle5{
+	height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: solid 1px #3d1d52;
+}
+
+.circle5:after{
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 124px;
+	background-color: #3d1d52;
+	margin-top: 50px;
+	position: absolute;
+}
+.circle6{
+	height: 29px; 
+	width: 29px;
+    z-index: 20;
+    margin: -40px 11px;
+    border-radius: 50%;
+    background-color: #914eb6;
+}
+
+.circle7{
+	height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: solid 1px #3d1d52;
+}
+.circle8{
+	height: 29px; 
+	width: 29px;
+    z-index: 20;
+    margin: -40px 11px;
+    border-radius: 50%;
+    background-color: #914eb6;
+}
+.job1{
+	margin-top: 30px;
+}
+.job2{
+	margin-top: 200px;
+	z-index: 10;
+}
+.linejob2:after{
+	margin-top: 40px;
+}
+
+.job3{
+	margin-top: 100px;
+}
+
+
+.job4{
+	margin-top: 174px;
+}
+
+.experience-right{
+	position: relative;	
+	width: 40%;
+    max-width: 40%;
+    margin-top: 40px;
+	box-sizing: border-box;
+}
+
+.quote-bg-right{
+	height: 170px;
+	width: 100%;
+	background-color: #3d1d52;
+	border-radius: 80px;
+	margin-bottom: 30px;
+	float: left;
+	border-radius: 5px;
+}
+.quote-bg-right:after{
+   content: "";
+    margin-top: 33px;
+    left: -42px;
+    height: 0;
+    width: 0;
+    border-top: 1px solid transparent;
+    border-bottom: 39px solid transparent;
+    border-right: 50px solid #3d1e52;
+    position: absolute;
+}
+
+.box1{
+	margin-top: 50px;
+}
+.box2{
+	margin-top: 330px;
+}
+
+.box4{
+	margin-top: 300px;
+}

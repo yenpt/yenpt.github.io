@@ -1,0 +1,136 @@
+@import url('animate.css');
+body{
+	margin:0px;
+	font-family: Roboto;
+}
+
+header{
+	background-color: #37273c;
+}
+
+
+
+.header-wrapper{
+	background-color: #37273c;
+	width: 1000px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+	height: 440px;
+	position: relative;
+}
+
+.header-img{
+	margin-left: -50px;
+	margin-top: 40px;
+}
+
+.header-text{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.header-text h1{
+	display: flex;
+    flex-direction: column;
+}
+
+.header-text h1:before{
+	content: "";
+    background-color: #914fb6;
+    width: 382px;
+    height: 2px;
+    display:inline-block;
+    margin-bottom: 20px;
+}
+
+.header-text h1:after{
+	content: "";
+    background-color: #914fb6;
+    width: 382px;
+    height: 2px;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.header-text p{
+	margin-top: -9px;
+    margin-bottom: 38px;
+}
+
+.header-text button{
+	width: 120px;
+    height: 45px;
+    font-size: 16px;
+    background-color: #914fb6;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+	  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+   animation-iteration-count: infinite;
+ }
+
+@keyframes bounceIn {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+
+/*.header-text button:hover{
+	width: 140px;
+	background-color: #d00795;
+	font-size: 23px;
+	transition: 0.5s;
+	animation-name: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+  perspective: 1000px;
+}
+*/
+.title{
+	font-weight: normal;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.title:after{
+    content: "";
+    background-color: #cf0099;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 45px;
+    left: 0;
+}
+
+
